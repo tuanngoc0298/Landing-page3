@@ -56,7 +56,6 @@ navLinks.addEventListener('click', e => {
       top: targetPosition - offset,
       behavior: 'smooth',
     });
-    console.log(targetPosition - offset);
   }
 });
 
