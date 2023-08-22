@@ -51,10 +51,7 @@ navLinks.addEventListener('click', e => {
     if (targetElement.classList.contains('section--hidden'))
       x = targetElement.getBoundingClientRect().top - 80;
     else x = targetElement.getBoundingClientRect().top;
-    console.log(x);
-    console.log(window.scrollY);
     const targetPosition = x + window.scrollY;
-    console.log(targetPosition);
     window.scrollTo({
       top: targetPosition - offset,
       behavior: 'smooth',
