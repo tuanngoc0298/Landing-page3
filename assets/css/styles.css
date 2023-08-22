@@ -410,7 +410,7 @@ section {
   display: none;
   align-items: center;
   gap: 5rem;
-  height: 25rem;
+  height: 32rem;
 }
 .features__item--active {
   display: flex;
