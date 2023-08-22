@@ -711,7 +711,9 @@ section {
   border-radius: 50%;
   cursor: pointer;
 }
-
+.slider__btn:hover {
+  background: #0eb2a7;
+}
 /* CTA */
 .cta {
   background: #def6f5;
